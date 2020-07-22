@@ -1,0 +1,15 @@
+[project]
+org-name= "it-lt46"
+version= "0.1.0"
+
+[dependencies]
+
+[platform]
+target = "java8"
+
+    [[platform.libraries]]  
+    artifactId = "mssql-jdbc"
+    version = "7.4.1.jre8"      
+    path = "mssql-jdbc-7.4.1.jre8.jar" 
+    groupId = "com.microsoft.sqlserver"   
+    modules = ["jdbcTest"]
